@@ -15,6 +15,15 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+<distributionManagement>
+        <repository>
+            <!--必须与 settings.xml 的 id 一致-->
+            <id>rd4-DEMO-javamaven</id>
+            <name>javamaven</name>
+            <url>https://rd4-maven.pkg.coding.net/repository/DEMO/javamaven/</url>
+        </repository>
+</distributionManagement>
+  
   <build>
     <plugins>
       <plugin>
